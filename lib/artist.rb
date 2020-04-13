@@ -26,7 +26,7 @@ class Artist
    def self.create(name)
     name = Artist.new(name)                                         #instantiates Artist object
     name.save                                                       #invokes save method which shovels instance into []
-    name                                                            #implicit return
+    name                                                           #implicit return
   end
   
   def songs 
